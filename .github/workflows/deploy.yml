@@ -31,6 +31,6 @@ jobs:
           timeout: 10
           handler: index
           role: arn:aws:iam::486476404560:role/Lambda
-          runtime: Go 1.x
+          runtime: go1.x
           
           

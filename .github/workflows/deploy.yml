@@ -29,7 +29,7 @@ jobs:
           zip_file: deployment.zip
           memory_size: 128
           timeout: 10
-          handler: main
+          handler: index
           role: arn:aws:iam::486476404560:role/Lambda
           runtime: go1.x
           
